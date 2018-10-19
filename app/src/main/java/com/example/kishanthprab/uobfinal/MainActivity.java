@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         rootLayout = (RelativeLayout) findViewById(R.id.rootLayout);
         btn_SignIn = (MaterialButton) findViewById(R.id.btn_signIn);
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void goTOWelcomeActivity() {
-        //Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(), WelcomeActivity.class);
+        startActivity(intent);
     }
 }
