@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "364125679401",
+    "firebase_url": "https://uobfinal.firebaseio.com",
+    "project_id": "uobfinal",
+    "storage_bucket": "uobfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364125679401:android:e1cd13b484d06429",
+        "android_client_info": {
+          "package_name": "com.example.kishanthprab.uobfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364125679401-7t25896c6j753vg6m778f69l0d03iphg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcCq09b5yQq_TXHODLhAk52hou-XuCCyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

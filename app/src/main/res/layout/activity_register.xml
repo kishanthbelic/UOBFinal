@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:id="@+id/rootLayout"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editT_Register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/primaryDarkColor"
+            android:textColorHint="@color/primaryDarkColor"
+            android:textSize="20sp"
+            app:met_baseColor="@color/primaryTextColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryTextColor"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="@color/secondaryColor"
+            app:met_underlineColor="@color/secondaryColor" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editT_Register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="@color/primaryDarkColor"
+            android:textColorHighlight="@color/primaryDarkColor"
+            android:textColorHint="@color/primaryDarkColor"
+            android:textSize="20sp"
+            app:met_baseColor="@color/primaryTextColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryTextColor"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="@color/secondaryColor"
+            app:met_underlineColor="@color/secondaryColor" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editT_Register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/primaryDarkColor"
+            android:textColorHint="@color/primaryDarkColor"
+            android:textSize="20sp"
+            app:met_baseColor="@color/primaryTextColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryTextColor"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="@color/secondaryColor"
+            app:met_underlineColor="@color/secondaryColor" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editT_Register_CPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/primaryDarkColor"
+            android:textColorHint="@color/primaryDarkColor"
+            android:textSize="20sp"
+            app:met_baseColor="@color/primaryTextColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryTextColor"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="@color/secondaryColor"
+            app:met_underlineColor="@color/secondaryColor" />
+
+
+    </LinearLayout>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_signUp"
+        android:layout_width="227dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:text="Sign Up"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtV_signIn"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="64dp"
+        android:gravity="top|center"
+        android:text="Click here to SignIn"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp" />
+
+</RelativeLayout>
